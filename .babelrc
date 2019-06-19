@@ -1,0 +1,6 @@
+{
+  "presets": ["@babel/preset-env"]
+  //저는 프리셋으로 preset-env바벨을 사용할 것입니다. 라는뜻
+  // "plugins": [] 여기에 추가할 플러그인 추가 가능
+  //https://babeljs.io/docs/en/plugins#docsNav 이곳으로 가서 추가 가능
+}
