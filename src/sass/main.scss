@@ -1,3 +1,5 @@
-// src/sass/main.scss
-@import "partials/vars";
-@import "partials/body";
+// src/sass/main.scs
+@import "variable/common";
+@import "partials/reset";
+@import "partials/headerTop";
+@import "partials/headerBottom";
