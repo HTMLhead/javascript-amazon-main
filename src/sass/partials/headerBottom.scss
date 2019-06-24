@@ -1,0 +1,195 @@
+.head-arrow-bright {
+  position: $arrow-position;
+  border: $arrow-border;
+  border-top: $arrow-border-top #a7acb2;
+}
+
+.head-nav-container {
+  background-color: #24313f;
+  display: flex;
+  justify-content: space-between;
+  .head-nav-location {
+    margin-left: 0.7rem;
+    font-family: Arial, sans-serif;
+    color: $color-basic;
+    width: 10rem;
+    height: 1.7rem;
+    padding: 0.3rem;
+    border: $hover-border;
+    &:hover {
+      border: $border-active #4f5965;
+      border-radius: 0.25rem;
+    }
+    .head-nav-location-img {
+      display: inline-block;
+    }
+
+    .head-nav-location-word-container {
+      display: inline-block;
+      .head-nav-location-word {
+        font-size: 0.75rem;
+      }
+
+      .head-nav-location-user {
+        font-size: 0.875rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+  /* head-nav */
+
+  .head-nav-list {
+    display: flex;
+    justify-content: flex-start;
+    font-family: arial, sans-serif;
+    margin-top: 0.375rem;
+    margin-right: 16rem;
+    .head-nav-list-el-selector {
+      padding: 0.3rem 0.6rem;
+      padding-right: 1.26rem;
+      position: relative;
+      margin-right: 0.6rem;
+      color: $color-basic;
+      border: $hover-border;
+      &:hover {
+        border: $border-active #4f5965;
+        border-radius: 0.25rem;
+      }
+
+      .head-nav-list-el-selector-word {
+        font-size: 0.875rem;
+        font-weight: 700;
+        .departments-arrow {
+          position: absolute;
+          right: 1em;
+          top: 0.8em;
+        }
+      }
+    }
+
+    .head-nav-list-el {
+      margin-top: 0.5rem;
+      margin-bottom: 0.25rem;
+      margin-right: 0.62rem;
+      color: #ccc;
+      font-size: 0.75rem;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  /* nav-right */
+
+  .head-nav-right {
+    font-family: Arial, sans-serif;
+    .head-nav-right-list {
+      display: flex;
+      justify-content: flex-start;
+      margin-right: 0.62rem;
+      .head-nav-right-list-language {
+        padding: 0.375rem 1rem 0.187rem 1rem;
+        border: $hover-border;
+        &:hover {
+          border: $border-active #4f5965;
+          border-radius: 0.25rem;
+        }
+
+        .head-nav-right-list-language-user {
+          color: #ccc;
+          font-size: 0.75rem;
+        }
+
+        .head-nav-right-list-language-img {
+          position: relative;
+          margin-left: 0.07rem;
+        }
+
+        .language-arrow {
+          position: absolute;
+          top: 0.37rem;
+          right: -0.18rem;
+        }
+      }
+
+      .head-nav-right-linkborder {
+        border-right: $border-active #555;
+        display: inline-block;
+        height: 1.7rem;
+        margin-top: 0.37rem;
+      }
+
+      .head-nav-right-list-account {
+        padding: 0.375rem 1.2rem 0.45rem 1rem;
+        border: $hover-border;
+        &:hover {
+          border: $border-active #4f5965;
+          border-radius: 0.25rem;
+        }
+
+        .head-nav-right-list-account-msg {
+          color: #ccc;
+          font-size: 0.75rem;
+        }
+
+        .head-nav-right-list-account-user {
+          position: relative;
+          color: $color-basic;
+          font-size: 0.875rem;
+          font-weight: 700;
+        }
+
+        .account-arrow {
+          position: absolute;
+          top: 0.4rem;
+          right: -0.3rem;
+        }
+      }
+
+      .head-nav-right-list-order {
+        margin-top: 0.75rem;
+        padding: 0.3rem 0.55rem;
+        border: $hover-border;
+        &:hover {
+          border: $border-active #4f5965;
+          border-radius: 0.25rem;
+        }
+
+        .head-nav-right-list-order-word {
+          color: $color-basic;
+          font-size: 0.825rem;
+          font-weight: 700;
+        }
+      }
+
+      /* cart */
+
+      .head-nav-right-list-cart {
+        position: relative;
+        padding: 0.1rem 1rem 0.2rem 1rem;
+        border: $hover-border;
+        &:hover {
+          border: $border-active #4f5965;
+          border-radius: 0.25rem;
+        }
+
+        .head-nav-right-list-cart-num {
+          position: absolute;
+          top: 0px;
+          left: 2.2rem;
+          color: #f08804;
+          font-weight: 700;
+        }
+
+        .head-nav-right-list-cart-word {
+          position: relative;
+          right: 0.18rem;
+          color: $color-basic;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
